@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+}
+
+#content {
+  display: block;
+  position: relative;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.commentBox {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin: auto;
+  padding: 25px;
+  position: relative;
+  width: 40vw;
+}
+
+.commentList {
+  float: left;
+  margin: 10px auto;
+  padding: 0;
+  text-align: left;
+  width: 35vw;
+}
+
+.comment {
+  color: dimgrey;
+  text-align: left;
+}
+
+.commentAuthor {
+  color: black;
+}
+
+.commentForm {
+  display: inline-block;
+  float: left;
+  margin: 10px auto;
+  position: relative;
+  width: 35vw;
+}
+
+.commentFormInput, .commentFormSubmit {
+  border: 1px solid #255;
+  border-radius: 2px;
+  display: block;
+  line-height: 24px;
+  margin: 5px auto;
+  height: 26px;
+  width: 144px;
+}
+
+.commentFormInput {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.commentFormSubmit {
+  width: 64px;
+}
